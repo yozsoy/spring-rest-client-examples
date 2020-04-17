@@ -48,5 +48,4 @@ public class UserControllerTest {
                 .exchange()
                 .expectStatus().isOk();
     }
-
 }

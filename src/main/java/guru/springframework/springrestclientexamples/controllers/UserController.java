@@ -34,7 +34,7 @@ public class UserController {
 
         Integer limit = new Integer(map.get("limit").get(0));
 
-        log.debindex.html ug("Received Limit value: " + limit);
+        log.debug("Received Limit value: " + limit);
         //default if null or zero
         if(limit == null || limit == 0){
             log.debug("Setting limit to default of 10");
